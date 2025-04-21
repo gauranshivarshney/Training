@@ -1,0 +1,109 @@
+.container{
+    margin-left: 60px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: #5E6282;
+}
+
+.subHeading {
+    font-size: 45px;
+    font-weight: 700;
+    width: 379px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.img1 {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+.img2 {
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+}
+
+.img3 {
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+}
+
+.right {
+    margin-top: 100px;
+    margin-left: 580px;
+    position: absolute;
+}
+
+.userIcon {
+    width: 60px;
+    height: 60px;
+    margin: -55px;
+}
+
+.userCon {
+    width: 457px;
+    height: 340px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -30;
+    background-color: white;
+}
+
+.userText {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5E6282;
+    padding-left: 30px;
+    width: 402px;
+    height: 96px;
+    line-height: 25px;
+    padding-top: 50px;
+}
+
+.userSubText1 {
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 800;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+
+.userSubText2 {
+    color: #5E6282;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 1095px){
+    .container{
+        flex-direction: column;
+    }
+    
+    .left{
+        margin-top: -90px;
+    }
+
+    .right{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1095px){
+    .container{
+        margin-top: 200px;
+    }
+}

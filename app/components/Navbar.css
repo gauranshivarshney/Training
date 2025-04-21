@@ -1,0 +1,32 @@
+.navbar{
+    height: 40px;
+    margin-top: 10px;
+}
+
+.image{
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-text{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.heading{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.list{
+    display: flex;
+    gap: 50px;
+    margin-left: 250px;
+}
+
+@media screen and (max-width: 810px){
+    .list{
+        display: none;
+    }
+}
