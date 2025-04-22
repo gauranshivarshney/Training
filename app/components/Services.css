@@ -98,6 +98,13 @@
     }
 }
 
+@media screen and (max-width: 598px){
+    .arrow-btn{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
 @media screen and (max-width: 575px){
     .title1{
         margin-left: 70px;
@@ -109,30 +116,19 @@
     }
 }
 
-@media screen and (max-width: 495px){
-    .boxes1{
-        margin-left: 50px;
-    }
-
-    .arrow-btn{
-        margin-left: 1px;
-        margin-right: -40px;
-    }
-}
-
 @media screen and (max-width: 460px){
     .title1{
-        font-size: 40px;
+        font-size: 35px;
         margin-left: 10px;
     }
 
     .arrow-btn{
         margin-top: -1200px;
-        margin-left: -60px;
-        margin-right: -60px;
+        margin-left: -100px;
+        margin-right: -100px;
     }
 
     .boxes1{
-        margin-left: 20px;
+        margin-left: 10px;
     }
 }

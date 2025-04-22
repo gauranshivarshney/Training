@@ -105,6 +105,44 @@
     }
 }
 
+@media screen and (max-width: 620px){
+    .about{
+        width: 400px;
+        height: 550px;
+    }
+
+    .aboutSubtext1{
+        width: 300px;
+    }
+
+    .aboutSubtext2{
+        width: 300px;
+    }
+
+    .aboutSubtext3{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .about{
+        width: 300px;
+        height: 700px;
+    }
+
+    .aboutSubtext1{
+        width: 200px;
+    }
+
+    .aboutSubtext2{
+        width: 200px;
+    }
+
+    .aboutSubtext3{
+        width: 200px;
+    }
+}
+
 @media screen and (max-width: 495px){
     .about{
         width: 350px;
@@ -141,6 +179,16 @@
     
     .aboutSubtext3{
         display: none;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .about{
+        width: 250px;
+    }
+
+    .aboutSubtext1{
+        width: 180px;
     }
 }
 
