@@ -33,3 +33,13 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 460px){
+    .bookTitle{
+        font-size: 30px;
+    }
+
+    .book{
+        width: 200px;
+    }
+}

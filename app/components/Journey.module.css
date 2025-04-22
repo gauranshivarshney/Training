@@ -98,3 +98,33 @@
     font-style: italic;
     text-align: center;
 }
+
+@media screen and (max-width: 660px){
+    .t2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .heading2{
+        font-size: 40px;
+    }
+
+    .i1{
+        width: 35px;
+        height: 35px;
+        margin-left: -40px;
+    }
+    
+    .t1{
+        font-size: 20px;
+    }
+    
+    .i2{
+        display: none;
+    }
+
+    .right1{
+        margin-left: -40px;
+    }
+}

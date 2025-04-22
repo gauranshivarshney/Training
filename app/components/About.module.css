@@ -104,3 +104,53 @@
         width: 400px;
     }
 }
+
+@media screen and (max-width: 495px){
+    .about{
+        width: 350px;
+        margin-left: 80px;
+    }
+
+    .aboutSubtext1{
+        width: 250px;
+    }
+
+    .aboutSubtext2{
+        width: 250px;
+    }
+
+    .aboutSubtext3{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .about{
+        width: 300px;
+        height: 300px;
+        margin-left: 50px;
+    }
+
+    .aboutSubtext1{
+        width: 200px;
+    }
+    
+    .aboutSubtext2{
+        display: none;
+    }
+    
+    .aboutSubtext3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 298px){
+    .about{
+        width: 200px;
+        height: 500px;
+    }
+
+    .aboutSubtext1{
+        width: 100px;
+    }
+}

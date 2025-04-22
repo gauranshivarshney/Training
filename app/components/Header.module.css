@@ -1,11 +1,11 @@
-.header{
-    background-color: #72ADD8;
+.header {
+    background: linear-gradient(to left, #bac7ce, #084084);
     display: flex;
     flex-direction: column;
     height: 890px;
 }
 
-.button1{
+.button1 {
     border: 1px solid white;
     background-color: transparent;
     width: 300px;
@@ -16,7 +16,7 @@
     color: white;
 }
 
-.heading1{
+.heading1 {
     padding-top: 30px;
     font-size: 70px;
     font-weight: bolder;
@@ -26,11 +26,11 @@
     color: white;
 }
 
-.heading1 span{
+.heading1 span {
     color: #96D0FB;
 }
 
-.subheading{
+.subheading {
     font-size: 18px;
     font-weight: 600;
     color: white;
@@ -38,17 +38,17 @@
     margin-top: -20px;
 }
 
-.box{
+.box {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-.left{
+.left {
     flex: 1
 }
 
-.button2{
+.button2 {
     padding: 15px;
     border-radius: 15px;
     border: none;
@@ -60,7 +60,7 @@
     color: #0093FF;
 }
 
-.button3{
+.button3 {
     background-color: transparent;
     border: 1px solid white;
     border-radius: 20px;
@@ -72,7 +72,7 @@
     font-weight: 600;
 }
 
-.right{
+.right {
     flex: 1;
     display: flex;
     justify-content: flex-end;
@@ -81,14 +81,14 @@
     margin-right: 20px;
 }
 
-.picture{
+.picture {
     position: relative;
     width: 100%;
     max-width: 600px;
     height: 500px;
 }
 
-.headerImage{
+.headerImage {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -96,7 +96,7 @@
     z-index: 4;
 }
 
-.circle1{
+.circle1 {
     width: 300px;
     height: 530px;
     position: absolute;
@@ -107,7 +107,7 @@
     z-index: 2;
 }
 
-.circle2{
+.circle2 {
     width: 500px;
     height: 409px;
     position: absolute;
@@ -118,12 +118,12 @@
     z-index: 1;
 }
 
-.button4{
+.button4 {
     margin-top: 90px;
     margin-left: 100px;
 }
 
-.button{
+.button {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -133,76 +133,140 @@
     padding: 8px;
 }
 
-.img2{
+.img2 {
     margin-left: 15px;
 }
 
-.text4{
+.text4 {
     margin-right: 18px;
     font-size: 14px;
 }
 
-.subtext1{
+.subtext1 {
     color: #419FE4;
     font-weight: 800;
 }
 
-.subtext2{
+.subtext2 {
     font-weight: 800;
 }
 
-@media screen and (max-width: 1055px){
-    .headerImage{
+@media screen and (max-width: 1055px) {
+    .headerImage {
         width: 80%;
         height: 80%;
         margin-left: 90px;
     }
-    
-    .circle1{
+
+    .circle1 {
         display: none;
     }
-    
-    .circle2{
+
+    .circle2 {
         display: none;
     }
 }
 
-@media screen and (max-width: 980px){
-    .headerImage{
+@media screen and (max-width: 980px) {
+    .headerImage {
         display: none;
     }
 }
 
-@media screen and (max-width: 920px){
-    .header{
+@media screen and (max-width: 920px) {
+    .header {
         height: 600px;
     }
 
-    .heading1{
+    .heading1 {
         font-size: 40px;
     }
 
-    .subheading{
+    .subheading {
         margin-top: 5px;
     }
 }
 
-@media screen and (max-width: 800px){
-    .heading1{
+@media screen and (max-width: 800px) {
+    .heading1 {
         font-size: 30px;
     }
 
-    .subheading{
+    .subheading {
         font-size: 15px;
     }
 }
 
-@media screen and (max-width: 735px){
-    .heading1{
+@media screen and (max-width: 735px) {
+    .heading1 {
         font-size: 20px;
     }
 
-    .subheading{
+    .subheading {
         display: none;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .button3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .heading1{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 495px){
+    .button4 {
+        margin-left: 50px;
+    }
+    
+    .button {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .button1 {
+        width: 200px;
+        margin-left: 50px;
+    }
+
+    .heading1 {
+        font-size: 20px;
+        margin-left: 50px;
+        width: 300px;
+    }
+
+    .button2 {
+        padding: 10px;
+        width: 180px;
+        margin-left: 50px;
+        font-size: 10px;
+    }
+
+    .button4 {
+        margin-left: 50px;
+    }
+    
+    .button {
+        width: 250px;
+    }
+
+    .img2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 355px){
+    .heading1{
+        width: 200px;
+    }
+
+    .button{
+        width: 200px;
     }
 }
