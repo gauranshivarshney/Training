@@ -24,19 +24,29 @@
     width: 300px;
 }
 
-@media screen and (max-width: 915px){
+@media screen and (max-width: 980px){
+    .bookPara{
+        font-size: 20px;
+    }
+
     .bookTitle{
         font-size: 40px;
     }
+}
 
+@media screen and (max-width: 750px){
     .bookPara{
-        display: none;
+        font-size: 16px;
     }
 }
 
-@media screen and (max-width: 598px){
+@media screen and (max-width: 608px){
     .bookTitle{
         font-size: 30px;
+    }
+
+    .bookPara{
+        font-size: 12px;
     }
 }
 
@@ -46,6 +56,7 @@
     }
 
     .book{
-        width: 200px;
+        width: 180px;
+        height: auto;
     }
 }

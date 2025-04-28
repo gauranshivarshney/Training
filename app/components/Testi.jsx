@@ -3,6 +3,7 @@ import './Testi.css'
 
 export default function Testi() {
     return (
+        <div className='parent'>
         <div className='container'>
             <div className='left'>
                 <p className='heading'>TESTIMONIALS</p>
@@ -19,6 +20,7 @@ export default function Testi() {
                     <p className='userSubText2'>Mumbai, India</p>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

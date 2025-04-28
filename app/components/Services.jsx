@@ -67,7 +67,7 @@ export default function Services() {
 
   return (
     <div className='service'>
-      <h1 className='title1'>Services <span>&</span> Programs</h1>
+      <h2 className='title1'>Services <span>&</span> Programs</h2>
       <p className='para1'>Tailored solutions to elevate your sales performance and achieve breakthrough results.</p>
       <div className='slider-controls'>
         <button onClick={prevSlide} className='arrow-btn'><FaChevronLeft /></button>

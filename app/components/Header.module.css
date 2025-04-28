@@ -54,7 +54,7 @@
     border: none;
     width: 250px;
     margin-left: 100px;
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 15px;
     font-weight: 600;
     color: #0093FF;
@@ -90,15 +90,15 @@
 
 .headerImage {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 615px;
+    object-fit: contain;
     position: relative;
     z-index: 4;
 }
 
 .circle1 {
     width: 300px;
-    height: 530px;
+    height: 532px;
     position: absolute;
     top: 0;
     left: 0;
@@ -109,7 +109,7 @@
 
 .circle2 {
     width: 500px;
-    height: 409px;
+    height: 412px;
     position: absolute;
     left: 0;
     top: 0;
@@ -151,99 +151,272 @@
     font-weight: 800;
 }
 
-@media screen and (max-width: 1055px) {
-    .headerImage {
-        width: 80%;
-        height: 80%;
-        margin-left: 90px;
+@media screen and (max-width: 1054px) {
+    .picture {
+        max-width: 400px;
+        height: auto;
+        margin: 0 auto;
     }
 
-    .circle1 {
-        display: none;
-    }
-
-    .circle2 {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 980px) {
-    .headerImage {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 920px) {
-    .header {
+    .headerImage{
+        width: 730px;
         height: 600px;
     }
 
-    .heading1 {
-        font-size: 40px;
+    .circle1 {
+        width: 300px;
+        height: 470px;
+        margin-top: 67px;
+        margin-left: 436px;
+    }
+    
+    .circle2 {
+        width: 485px;
+        height: 437px;
+        margin-top: 100px;
+        margin-left: 250px;
+    }
+
+    .subheading{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .circle1{
+        display: none;
+    }
+
+    .circle2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1040px){
+    .headerImage{
+        width: 600px;
+        height: 680px;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .header{
+        height: 855px;
+    }
+
+    .headerImage{
         width: 500px;
     }
-
-    .subheading {
-        margin-top: 5px;
-    }
 }
 
-@media screen and (max-width: 800px) {
-    .heading1 {
-        font-size: 30px;
-    }
-
-    .subheading {
-        font-size: 15px;
-    }
-}
-
-@media screen and (max-width: 735px) {
-    .heading1 {
-        font-size: 20px;
-    }
-
-    .subheading {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 670px){
-    .button3 {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 598px){
+@media screen and (max-width: 920px){
     .heading1{
-        width: 350px;
+        font-size: 60px;
+        width: 800px;
+    }
+
+    .header{
+        height: 833px;
     }
 }
 
-@media screen and (max-width: 520px){
+@media screen and (max-width: 900px){
     .heading1{
-        width: 400px;
+        width: 700px;
     }
 }
 
-@media screen and (max-width: 530px){
+@media screen and (max-width: 810px){
     .heading1{
+        width: 600px;
+    }
+
+    .header{
+        height: 902px;
+    }
+}
+
+@media screen and (max-width: 775px){
+    .subheading{
+        font-size: 16px;
+    }
+
+    .headerImage{
+        width: 480px;
+    }
+
+    .header{
+        height: 902px;
+    }
+
+    .button{
         width: 300px;
     }
 }
 
-@media screen and (max-width: 495px){
-    .button4 {
-        margin-left: 50px;
+@media screen and (max-width: 738px) {
+    .heading1 {
+        font-size: 20px;
+    }
+
+    .headerImage{
+        width: 450px;
+    }
+
+    .header{
+        height: 709px;
+    }
+}
+
+@media screen and (max-width: 698px){
+    .subheading{
+        font-size: 12px;
+    }
+
+    .headerImage{
+        width: 400px;
+    }
+
+    .heading1{
+        width: 500px;
+    }
+
+    .header{
+        height: 690px;
+    }
+}
+
+@media screen and (max-width: 665px){
+    .button2 {
+        padding: 10px;
+        width: 200px;
+        font-size: 12px;
     }
     
-    .button {
-        width: 340px;
+    .button3 {
+        width: 200px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .header{
+        height: 675px;
+    }
+}
+
+@media screen and (max-width: 642px){
+    .headerImage{
+        width: 350px;
+        margin-left: 160px;
+    }
+
+    .header{
+        height: 658px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .button{
+        width: 200px;
+    }
+
+    .heading1{
+        width: 400px;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .text4{
+        font-size: 12px;
+    }
+
+    .headerImage{
+        margin-top: -30px;
+    }
+
+    .header{
+        height: 643px;
+    }
+}
+
+@media screen and (max-width: 595px){
+    .headerImage{
+        width: 320px;
+    }
+
+    .header{
+        height: 632px;
+    }
+}
+
+@media screen and (max-width: 565px){
+    .button3{
+        display: none;
+    }
+
+    .subheading{
+        width: 300px;
+    }
+
+    .header{
+        height: 645px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .header{
+        height: 640px;
+    }
+
+    .headerImage{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 498px){
+    .subheading{
+        font-size: 10px;
+    }
+
+    .heading1{
+        width: 250px;
+    }
+
+    .headerImage{
+        width: 290px;
+    }
+
+    .header{
+        height: 632px;
+    }
+}
+
+@media screen and (max-width: 478px){
+    .headerImage{
+        width: 350px;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+
+    .header{
+        height: 582px;
+    }
+
+    .button4{
+        display: none;
     }
 }
 
 @media screen and (max-width: 460px) {
+    .header{
+        height: 501px;
+    }
+
     .button1 {
+        margin-top: 40px;
         width: 200px;
         margin-left: 50px;
     }
@@ -261,25 +434,29 @@
         font-size: 10px;
     }
 
-    .button4 {
-        margin-left: 50px;
-    }
-    
-    .button {
-        width: 250px;
+    .picture{
+        max-width: 250px;
+        margin: -10px auto 0;
     }
 
-    .img2 {
-        display: none;
+    .headerImage{
+        margin-left: -50px;
+    }
+
+    .subheading {
+        font-size: 8px;
+        width: 200px;
+        margin-left: 50px;
     }
 }
 
-@media screen and (max-width: 355px){
-    .heading1{
-        width: 200px;
+@media screen and (max-width: 450px){
+    .headerImage{
+        width: 300px;
+        margin-left: -30px;
     }
 
-    .button{
-        width: 200px;
+    .header{
+        height: 485px;
     }
 }

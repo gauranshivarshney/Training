@@ -4,12 +4,12 @@ import './Philosophy.css'
 export default function Philosophy() {
   return (
     <div className='philosophy'>
-      <h1 className='title'>My <span>Sales</span> Philosophy</h1>
+      <h2 className='title'>My <span>Sales</span> Philosophy</h2>
       <p className='para'>No theory, just practical strategies that deliver real results in the field.</p>
       <div className='boxes'>
         <div className='card'>
           <img src='/p1.png' className='card-image' />
-          <p className='card-text1'>Understanding Huma Behavior</p>
+          <p className='card-text1'>Understanding Human Behavior</p>
           <p className='card-text2'>Learn to read prospects and adapt your approach to their psychology</p>
         </div>
         <div className='card'>

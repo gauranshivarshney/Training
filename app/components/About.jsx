@@ -3,6 +3,7 @@ import styles from './About.module.css'
 
 export default function About() {
   return (
+    <div className={styles.parent}>
     <div className={styles.about}>
       <div className={styles.box2}>
         <div className={styles.left}>
@@ -15,6 +16,7 @@ export default function About() {
           <img src='/a.png' className={styles.aboutImage} />
         </div>
       </div>
+    </div>
     </div>
   )
 }
